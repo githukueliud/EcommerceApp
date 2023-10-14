@@ -1,4 +1,4 @@
-package com.example.ecommerceapp
+package com.example.ecommerceapp.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.ecommerceapp.ui.theme.EcommerceAppTheme
 
-class MainActivity : ComponentActivity() {
+class LoginRegisterActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

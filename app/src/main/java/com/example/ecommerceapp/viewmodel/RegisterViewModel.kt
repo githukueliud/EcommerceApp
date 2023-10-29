@@ -8,12 +8,11 @@ import com.google.firebase.auth.FirebaseUser
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject
 
 
 @HiltViewModel
-class LoginRegisterViewModel @Inject constructor(
+class RegisterViewModel @Inject constructor(
     private val firebaseAuth: FirebaseAuth
 ): ViewModel() {
     private val _register = MutableStateFlow<Resource<FirebaseUser>>(Resource.Loading())

@@ -6,5 +6,5 @@ import com.example.ecommerceapp.R
 
 class RegisterFragment: Fragment(R.layout.register_fragment) {
 
-//    private lateinit var binding: FragmentRegisterBinding
+    //private lateinit var binding: FragmentRegisterBinding
 }
